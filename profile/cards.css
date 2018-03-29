@@ -1,0 +1,78 @@
+.wrapper-second {
+   height: auto;
+   width: auto;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   justify-content: space-between;
+   justify-content: center;
+   padding: 5%;
+   position: absolute;
+}
+
+.wrapper-title {
+  text-align: center;
+}
+
+.card {
+  position: relative;
+  height: 400px;
+  width: 400px;
+  background-size: cover !important;
+  background-position: center;
+  align-items: center;
+  color: white;
+  flex: 0 0 33%;
+  margin: 2%;
+  -webkit-transition: background-color 300ms ease-in;
+  -ms-transition: background-color 300ms ease-in;
+  transition: background-color 300ms ease-in;
+}
+
+
+.card-text {
+  visibility: hidden;
+  height: 400px;
+  width: 400px;
+  margin: 0;
+}
+
+.card:hover .card-text {
+  font-size: 22px;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: black;
+  -webkit-transition: color 300ms ease-in;
+  -ms-transition: color 300ms ease-in;
+  transition: color 300ms ease-in;
+  opacity: 3;
+  text-align: center;
+  -moz-transition: all .1s;
+  -webkit-transition: all .1s;
+  transition: all .1s;
+  -moz-transform: scale(1,1);
+  -webkit-transform: scale(1,1);
+  transform: scale(1,1);
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, .2);
+}
+
+.card:hover .card-text {
+ visibility: visible;
+}
+
+/*  -moz-transition: all .5s;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  -moz-transform: scale(1,1);
+  -webkit-transform: scale(1,1);
+  transform: scale(1,1);
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, .2);
+*/

@@ -1,0 +1,29 @@
+.button {
+  background-color: transparent !important;
+  font-family: "Space Mono" !important;
+  font-style: normal !important;
+  font-size: 15px !important;
+  margin-left: 1em !important;
+  text-transform: uppercase !important;
+  text-decoration: none !important;
+  letter-spacing: 2px !important;
+  border-radius: 0px !important;
+  border: 1px solid white !important;
+  color: white !important;
+  font-weight: 400 !important;
+  padding: 1em 5em !important;
+  z-index: 5000;
+  }
+
+.button:hover {
+  background-color: #3ac162 !important;
+  border: 1px #3ac162 !important;
+  color: white !important;
+  text-decoration: none !important;
+  // -moz-transform: scale(1.05,1.05) !important;
+  // -webkit-transform: scale(1.05,1.05) !important;
+  // transform: scale(1.05,1.05) !important;
+  transition: background-color .3s 0s ease-in-out !important;
+  transition: color .3s 0s ease-in-out !important;
+  z-index: 5000;
+}
