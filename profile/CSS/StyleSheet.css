@@ -3,6 +3,17 @@
 @import 'navbar.css';
 @import 'cards.css';
 
+.banner {
+  color: white;
+  text-align: center;
+  min-height: 100vh;
+  height: calc(100vh -80px);
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .wrapper {
   text-align: center;
   background-color: #FFFFFF;
