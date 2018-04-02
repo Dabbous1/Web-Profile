@@ -2,6 +2,7 @@
 @import 'button.css';
 @import 'navbar.css';
 @import 'cards.css';
+@import 'footer.css';
 
 .banner {
   color: white;
@@ -17,6 +18,30 @@
 .wrapper {
   text-align: center;
   background-color: #FFFFFF;
+}
+
+.wrapper-second {
+   height: auto;
+   width: auto;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   justify-content: space-between;
+   justify-content: center;
+   padding: 5%;
+}
+
+.wrapper-third {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: auto;
+  width: auto;
+}
+
+.wrapper-title {
+  text-align: center;
 }
 
 #img-circle {
@@ -48,98 +73,3 @@
   padding: 10px;
   flex: 0 0 33%;
 }
-
-/*
-.features {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  margin-top: -20px;
-  text-align: left;
-}
-*/
-
-/*
-.feature {
-  padding: 40px 10px 0 10px;
-  -webkit-box-flex: 0;
-  -ms-flex: 0 0 33%;
-  flex: 0 1 33%;
-  padding-bottom: 0;
-  margin: auto;
-}
-
-
-
-.feature-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-bottom: 5px;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  font-weight: 900;
-  font-size: 15px;
-}
-
-.card-portfolio {
-  background: linear-gradient(#1c92d2, #f2fcfe);
-  display: flex;
-  height: 300px;
-  }
-
-.card-portfolio h1 {
-text-align: center;
-}
-
-.card {
-  height: 175px;
-  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
-  background-size: cover !important;
-  background-position: center;
-  color: white;
-}
-
-
-.list-inline {
-  padding-left: 0;
-}
-.list-inline < li {
-  display: inline-block;
-  padding: 20px;
-}
-.list-inline li i {
-  font-size: 25px;
-}
-
-
-
-th, td {
-   text-align: justify;
-   text-justify: inter-word;
-   padding: 5px;
- }
-
-img {
-  width: 200px;
-  height: 300px;
-}
-
-h1, h2 {
-  font-family: 'Righteous', cursive;
-  line-height: 30px;
-}
-
-p {
-  font-size: 12px;
-}
-
-a:hover {
-  text-decoration: underline;
-  color: #FFFFFF;
-}
-
-*/
