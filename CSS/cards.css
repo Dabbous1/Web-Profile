@@ -12,9 +12,8 @@
   transition: background-color 300ms ease-in;
 }
 
-
 .project-card {
-  margin-top: 5%;
+  margin-top: 2%;
   width: auto;
   height: auto;
   flex: 1;
@@ -78,3 +77,26 @@
  visibility: visible;
 }
 
+.getmydata-heading {
+  font-family: "Raleway";
+  color: white;
+  font-size: 50px;
+}
+
+.getmydata-paragraph {
+  font-family: "Raleway";
+  color: white;
+  font-size: 25px;
+}
+
+.spacewagon-heading {
+  font-family: "Space Mono";
+  color: white;
+  font-size: 50px;
+}
+
+.spacewagon-paragraph {
+  font-family: "Space Mono";
+  color: white;
+  font-size: 25px;
+}
