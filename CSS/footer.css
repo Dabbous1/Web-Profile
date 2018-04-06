@@ -1,11 +1,14 @@
 .footer {
-  background: #DF0000;
+  background: #DF0000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #333333, #DF0000);
+  background: linear-gradient(to right, #333333, #DF0000);
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 100px;
   padding: 0px 50px;
   color: rgba(0,0,0,0.3);
+  margin-top: 2%;
 }
 .footer-links {
   display: flex;
@@ -26,3 +29,5 @@
 .fa {
   color: white;
 }
+
+

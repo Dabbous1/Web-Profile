@@ -12,13 +12,34 @@
   transition: background-color 300ms ease-in;
 }
 
-
 .project-card {
-  margin-top: 5%;
+  margin-top: 2%;
   width: auto;
   height: auto;
   flex: 1;
   position: relative;
+}
+
+#gmd-logo {
+  position: absolute;
+  top: 0;
+  bottom: 60%;
+  left: 2%;
+  right: 0;
+  width: 150px;
+  height: 50px;
+  margin-top: 2%;
+}
+
+#sw-logo {
+  position: absolute;
+  top: 0;
+  bottom: 60%;
+  left: 2%;
+  right: 0;
+  width: 80px;
+  height: 80px;
+  margin-top: 2%;
 }
 
 .card-content {
@@ -48,8 +69,7 @@
 .card-text {
   visibility: hidden;
   height: 400px;
-  width: 400px;
-  margin: 0;
+  width: auto;
 }
 
 .card:hover .card-text {
@@ -74,20 +94,34 @@
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, .2);
 }
 
+.card-description a {
+  text-decoration: none;
+}
+
 .card:hover .card-text {
  visibility: visible;
 }
 
+.getmydata-heading {
+  font-family: "Raleway";
+  color: white;
+  font-size: 50px;
+}
 
-/*  -moz-transition: all .5s;
-  -webkit-transition: all .5s;
-  transition: all .5s;
-  -moz-transform: scale(1,1);
-  -webkit-transform: scale(1,1);
-  transform: scale(1,1);
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  background-size: cover;
-  background-position: center;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, .2);
-*/
+.getmydata-paragraph {
+  font-family: "Raleway";
+  color: white;
+  font-size: 25px;
+}
+
+.spacewagon-heading {
+  font-family: "Space Mono";
+  color: white;
+  font-size: 50px;
+}
+
+.spacewagon-paragraph {
+  font-family: "Space Mono";
+  color: white;
+  font-size: 25px;
+}

@@ -13,18 +13,17 @@
 
 .navbar-wagon-brand {
   background: transparent;
-  height: 65px;
-  width: 65px;
+  height: 70px;
+  width: 70px;
   border-radius: 50%;
   margin-top: 10px;
-  box-shadow: 0 10px 6px -6px #777;
 }
 
 /* Logo */
 .navbar-wagon-brand img {
   height: 50px;
-  margin-left: 5px;
-  margin-top: 5px;
+  margin-left: 6px;
+  margin-top: 6px;
 }
 
 /* User Avatar */
@@ -66,12 +65,12 @@
 }
 
 .navbar-box:hover {
-  background-color: #bf0000;
+  background-color: #DF0000 ;
   box-shadow: 0 10px 6px -6px #777;
 }
 
 .navbar-box-bio:hover {
-  background-color: #bf0000;
+  background-color: #DF0000;
   box-shadow: 0 10px 6px -6px #777;
 }
 

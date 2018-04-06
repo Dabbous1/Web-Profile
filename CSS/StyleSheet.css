@@ -48,6 +48,10 @@
   width: 200px;
   height: 200px;
   border-radius: 50%;
+  border: 5px solid white;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  box-shadow:  -1px 1px #D3D3D3;
 }
 
 .card-bio {
@@ -72,4 +76,22 @@
   margin: 10px 20px;
   padding: 10px;
   flex: 0 0 33%;
+}
+
+ul {
+    margin: 0.75em 0;
+    padding: 0 1em;
+    list-style: none;
+}
+li:before {
+    content: "";
+    border-color: transparent #DF0000;
+    border-style: solid;
+    border-width: 0.35em 0 0.35em 0.45em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 0.9em;
+    position: relative;
 }

@@ -1,6 +1,6 @@
 .button {
   background-color: transparent !important;
-  font-family: "Space Mono" !important;
+  font-family: "Cairo" !important;
   font-style: normal !important;
   font-size: 15px !important;
   margin-left: 1em !important;
@@ -16,8 +16,8 @@
   }
 
 .button:hover {
-  background-color: #3ac162 !important;
-  border: 1px #3ac162 !important;
+  background-color: #DF0000!important;
+  border: 1px #DF0000 !important;
   color: white !important;
   text-decoration: none !important;
   // -moz-transform: scale(1.05,1.05) !important;
@@ -27,3 +27,7 @@
   transition: color .3s 0s ease-in-out !important;
   z-index: 5000;
 }
+
+
+
+
