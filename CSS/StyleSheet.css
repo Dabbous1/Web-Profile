@@ -94,6 +94,7 @@
 
 @media (max-width: 992px) {
   .feature {
+    margin: 100%;
     -webkit-box-flex: 0;
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
@@ -103,6 +104,7 @@
 
 @media (max-width: 768px) {
   .feature {
+    margin: 100%;
     -webkit-box-flex: 0;
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
