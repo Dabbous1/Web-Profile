@@ -94,20 +94,18 @@
 
 @media (max-width: 992px) {
   .feature {
-    margin: 100%;
     -webkit-box-flex: 0;
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
+    -ms-flex: 1 0 50%;
+    flex: 1 0 50%;
     padding: 0px 20px;
   }
 }
 
 @media (max-width: 768px) {
   .feature {
-    margin: 100%;
     -webkit-box-flex: 0;
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
+    -ms-flex: 1 0 100%;
+    flex: 1 0 100%;
   }
 }
 
