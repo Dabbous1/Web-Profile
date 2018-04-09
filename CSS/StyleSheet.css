@@ -4,10 +4,12 @@
 @import 'cards.css';
 @import 'footer.css';
 
+
 .banner {
   color: white;
   text-align: center;
   min-height: 100vh;
+  min-width: 100vw;
   height: calc(100vh -80px);
   background-size: cover !important;
   display: flex;
@@ -62,8 +64,6 @@
   margin-top: 100px;
 }
 
-
-
 .features {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -92,6 +92,26 @@
   text-align: left;
 }
 
+ul {
+    margin: 0.75em 0;
+    padding: 0 1em;
+    list-style: none;
+}
+li:before {
+    content: "";
+    border-color: transparent #DF0000;
+    border-style: solid;
+    border-width: 0.35em 0 0.35em 0.45em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 0.9em;
+    position: relative;
+}
+
+/* media queries*/
+
 @media (max-width: 992px) {
   .feature {
     -webkit-box-flex: 0;
@@ -109,20 +129,24 @@
   }
 }
 
-ul {
-    margin: 0.75em 0;
-    padding: 0 1em;
-    list-style: none;
+@media (max-width: 375px) {
+  .feature {
+    -webkit-box-flex: 0;
+    -ms-flex: 1 0 100vw;
+    flex: 1 0 100vw;
+  }
 }
-li:before {
-    content: "";
-    border-color: transparent #DF0000;
-    border-style: solid;
-    border-width: 0.35em 0 0.35em 0.45em;
-    display: block;
-    height: 0;
-    width: 0;
-    left: -1em;
-    top: 0.9em;
-    position: relative;
+
+@media (max-width: 768px) {
+  .banner {
+  background-image: "images/amsterdam_resized.jpg"
+  background-size: cover !important;
+  }
+}
+
+@media (max-width: 375px) {
+  .banner {
+  background-image: "images/amsterdam_resized_2.jpg";
+  background-size: cover !important;
+  }
 }
