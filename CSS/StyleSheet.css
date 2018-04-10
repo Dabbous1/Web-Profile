@@ -136,17 +136,3 @@ li:before {
     flex: 1 0 100vw;
   }
 }
-
-@media (max-width: 768px) {
-  .banner {
-  background-image: "images/amsterdam_resized.jpg"
-  background-size: cover !important;
-  }
-}
-
-@media (max-width: 375px) {
-  .banner {
-  background-image: "images/amsterdam_resized_2.jpg";
-  background-size: cover !important;
-  }
-}
