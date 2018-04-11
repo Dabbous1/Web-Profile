@@ -135,6 +135,30 @@
     flex: 1 0 50%;
     padding: 0px 20px;
   }
+  .card {
+    -webkit-box-flex: 0;
+    -ms-flex: 1 0 50%;
+    flex: 1 0 50%;
+  }
+  #gmd-logo {
+  position: absolute;
+  top: 0;
+  bottom: 60%;
+  left: 6%;
+  right: 0;
+  width: 100px;
+  height: 50px;
+  margin-top: 2%;
+  }
+  .text-center h1 {
+   font-size: 20px;
+  }
+  .getmydata-heading {
+    font-size: 24px;
+  }
+  .getmydata-paragraph{
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -143,6 +167,30 @@
     -ms-flex: 1 0 100%;
     flex: 1 0 100%;
   }
+  .card {
+    -webkit-box-flex: 0;
+    -ms-flex: 1 0 100%;
+    flex: 1 0 100%;
+  }
+  #gmd-logo {
+  position: absolute;
+  top: 0;
+  bottom: 60%;
+  left: 6%;
+  right: 0;
+  width: 75px;
+  height: 25px;
+  margin-top: 2%;
+  }
+  .text-center h1 {
+   font-size: 16px;
+  }
+  .getmydata-heading {
+    font-size: 18px;
+  }
+  .getmydata-paragraph{
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 375px) {
@@ -151,55 +199,28 @@
     -ms-flex: 1 0 100vw;
     flex: 1 0 100vw;
   }
-}
-
-@media (max-width: 992px) {
-  .card {
-    -webkit-box-flex: 0;
-    -ms-flex: 1 0 50%;
-    flex: 1 0 50%;
-  }
-}
-
-@media (max-width: 768px) {
-  .card {
-    -webkit-box-flex: 0;
-    -ms-flex: 1 0 100%;
-    flex: 1 0 100%;
-  }
-}
-
-@media (max-width: 375px) {
   .card {
     -webkit-box-flex: 0;
     -ms-flex: 1 0 100vw;
     flex: 1 0 100vw;
   }
-}
-
-@media (max-width: 992px) {
-  .card {
-    -webkit-box-flex: 0;
-    -ms-flex: 1 0 50%;
-    flex: 1 0 50%;
+  #gmd-logo {
+  position: absolute;
+  top: 0;
+  bottom: 60%;
+  left: 6%;
+  right: 0;
+  width: 50px;
+  height: 25px;
+  margin-top: 2%;
+  }
+  .text-center h1 {
+   font-size: 12px;
+  }
+  .getmydata-heading {
+    font-size: 14px;
+  }
+  .getmydata-paragraph{
+    font-size: 12px;
   }
 }
-
-@media (max-width: 768px) {
-  .card {
-    -webkit-box-flex: 0;
-    -ms-flex: 1 0 100%;
-    flex: 1 0 100%;
-  }
-}
-
-@media (max-width: 375px) {
-  .card {
-    -webkit-box-flex: 0;
-    -ms-flex: 1 0 100vw;
-    flex: 1 0 100vw;
-  }
-}
-
-
-
